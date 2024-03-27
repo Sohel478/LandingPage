@@ -12,22 +12,7 @@ const ContactUs = () => {
 
   return (
     <>
-    {/* <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', paddingTop:'200px'}}>
-      <h1>Contact Us</h1>
-      <p>We are always active and ready for action.</p>
-      <form style={{display:'flex', 
-        flexDirection:'column', 
-        justifyContent:'space-between', 
-        alignItems:'center',
-        height:'30vh'
-      }} >
-        <input type='text' placeholder='Your Name' required className='contactus-name'/>
-
-        <input type='email' placeholder='Your Email' required className='contactus-name'/>
-
-        <input type='text' placeholder='Your Message' required className='contactus-name'/>
-      </form>
-    </div> */}
+    
 
 <Container id="contact">
         <Row className="justify-content-center align-items-center">
@@ -73,7 +58,7 @@ const ContactUs = () => {
                     </Form.Group>
                 </Form>
             </Col>
-            <Col md={6} className="contactUs__image--container"></Col>
+            <Col md={6} className=""></Col>
         </Row>
     </Container>
     <Footer/>
