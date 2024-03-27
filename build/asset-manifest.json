@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b54e3f90.css",
+    "main.js": "/static/js/main.332385d0.js",
+    "static/media/Mobile-App01-760x1536.png": "/static/media/Mobile-App01-760x1536.79914617c73a1c12c67b.png",
+    "static/media/Half-Mobile-2.png": "/static/media/Half-Mobile-2.e427aba3f1cb6281b25b.png",
+    "static/media/Cards.png": "/static/media/Cards.e514a1283edd27440772.png",
+    "static/media/UI-Element.-04.png": "/static/media/UI-Element.-04.a99822007f5998aa5a82.png",
+    "static/media/blogImage05-1024x768.jpg": "/static/media/blogImage05-1024x768.4afb8f4cb1f14bd0489d.jpg",
+    "static/media/happy-businessman-in-glasses-holding-clipboard-in-2022-11-02-02-39-05-utc-174.jpg": "/static/media/happy-businessman-in-glasses-holding-clipboard-in-2022-11-02-02-39-05-utc-174.64fbeb626c62be030410.jpg",
+    "static/media/businessman-using-tablet-online-banking-exchange-currency-payment-digital-marketing-finance_34200-465.avif": "/static/media/businessman-using-tablet-online-banking-exchange-currency-payment-digital-marketing-finance_34200-465.4c9a3f089f92ee1fcaea.avif",
+    "static/media/construction.png": "/static/media/construction.945b82838d6e2a4d3a77.png",
+    "static/media/candle-stick-graph-chart-stock-market-investment-trading-bullish-point-bearish-point_258787-2700.avif": "/static/media/candle-stick-graph-chart-stock-market-investment-trading-bullish-point-bearish-point_258787-2700.07a61e45662be8b95655.avif",
+    "static/media/password-reset.svg": "/static/media/password-reset.d664d87ff1d602eb24af658ad2209219.svg",
+    "index.html": "/index.html",
+    "main.b54e3f90.css.map": "/static/css/main.b54e3f90.css.map",
+    "main.332385d0.js.map": "/static/js/main.332385d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54e3f90.css",
+    "static/js/main.332385d0.js"
+  ]
+}

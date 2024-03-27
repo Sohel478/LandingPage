@@ -1,0 +1,26 @@
+.contactUs__image--container {
+    background-image: url('/home/hrithik/Desktop/Techflux/Project1/Trdae App/client/src/NewComponents/Trade Photos/businessman-using-tablet-online-banking-exchange-currency-payment-digital-marketing-finance_34200-465.avif');
+    height: 60vh;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+

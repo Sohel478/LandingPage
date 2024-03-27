@@ -1,0 +1,109 @@
+.third-scroll-container{
+    padding-top: 250px;
+    padding-left: 30px;
+}
+
+.instrument-main-container{
+    display: flex;
+}
+
+.instrument-card{
+    padding-top: 100px;
+}
+
+.profile-card-container{
+    padding-top: 50px;
+}
+
+
+.profile-card{
+    object-fit: contain;
+    width: 35vw;
+    height: 70vh;
+}
+
+.fade-in-out {
+    animation: smalltolarge 4s ease forwards;
+  }
+  
+  @keyframes smalltolarge {
+    0% {
+      height: 0vh;
+      width: 0vh;
+    }
+
+    100% {
+    width: 35vw;
+    height: 70vh;
+    }
+  }
+
+.atm-cards{
+    width: 25vw;
+    margin-top: -75px;
+}
+
+.rotate-bottom-to-right {
+    animation: rotateBottomToRight 3s ease forwards;
+  }
+  
+  @keyframes rotateBottomToRight {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    50%{
+        transform: rotateX(0deg) rotateY(90deg);
+    }
+
+    100% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+}
+
+.fourth-scroll-container{
+    padding-top: 250px;
+}
+
+
+
+.easy-mobile{
+    height: 90vh;
+    margin-top: -50px;
+    /* margin-left: 30px; */
+}
+
+.easy-heading{
+   padding-top: 20px;  
+}
+
+
+
+.easy-heading-body{
+    width: 28vw;
+}
+
+.ehbs{
+    padding-left: 20px;
+}
+
+.fade-in-out1 {
+    animation: smalltolarge 2s ease forwards;
+  }
+  
+  @keyframes smalltolarge {
+    0% {
+      height: 0vh;
+      width: 0vh;
+      margin-top: 0px;
+    }
+
+    100% {
+        height: 90vh;
+        margin-top: -50px;
+    }
+  }
+
+  .fifth-scroll-container{
+    padding-top: 250px;
+  }
