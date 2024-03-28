@@ -2,9 +2,19 @@ import React from 'react'
 import tradelogo from '../Trade Photos/Trade.p-Site-Logo.png'
 import './NavCompo.css'
 import { Nav} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 
 const NavCompo = () => {
+  const navi = useNavigate()
+  const navh = useNavigate()
+
+  const handlePriceNav = ()=>{
+    navi('/pricing')
+  }
+
+  const handleHomenav = () =>{
+    navh('/NewHome/NewHome')
+  }
   return (
    <>
     <div className='heading'>
@@ -13,9 +23,13 @@ const NavCompo = () => {
     </div>
 
     <div className='nav-container'>
-      <Nav.Link to={'/Home.js'}>Home</Nav.Link>
+    <p className="footer-link" onClick={handleHomenav}>
+              Home
+          </p>
       <Nav.Link href="#contact" style={{cursor:'pointer'}} >Contact</Nav.Link>
-      <Nav.Link href="#pricing" style={{cursor:'pointer'}}>Pricings</Nav.Link>
+      <p className="footer-link" onClick={handlePriceNav}>
+              Pricing
+          </p>
       <Nav.Link href='https://trade-journal-app-jts9d.ondigitalocean.app/' style={{cursor:'pointer'}}>Login</Nav.Link>
     </div>
    </>
