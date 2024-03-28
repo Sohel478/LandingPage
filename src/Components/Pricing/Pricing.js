@@ -55,7 +55,8 @@ const PricingPage = () => {
   ];
 
   return (
-   <div>
+
+    <><NavCompo /><div>
 
 
       <Container className="mt-5 pricing-section" id="pricing">
@@ -116,14 +117,14 @@ const PricingPage = () => {
       </Container>
       {/* Contact Section */}
       {/* <Container id="contact" className="py-5 text-center">
-    <h2 className="mb-4">Contact Us</h2>
-    <p>Have questions or need assistance? Reach out to our support team.</p>
-  <Button variant="primary" size="lg">
-    Contact Support
-  </Button>
-    </Container> */}
+  <h2 className="mb-4">Contact Us</h2>
+  <p>Have questions or need assistance? Reach out to our support team.</p>
+<Button variant="primary" size="lg">
+  Contact Support
+</Button>
+  </Container> */}
       {/* <Footer /> */}
-    </div>
+    </div> <Footer/></>
   );
 };
 
