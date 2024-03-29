@@ -131,7 +131,7 @@ const NewHomePart2 = () => {
 
 </div>
 
-<PricingPage/>
+
 <NewHomePart3/>
 
   </>
