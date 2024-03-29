@@ -66,17 +66,12 @@ function Footer() {
           <h6 className="section-title">Contact</h6>
           <hr className="section-divider" />
           <p>
-            <i className="fas fa-home"></i> Delhi, NY 10012, India
+            <i className="fas fa-home"></i> 799, Sec -7C Faridabad, Haryana 121006
           </p>
           <p>
-            <i className="fas fa-envelope"></i> tradinganalytics@example.com
+            <i className="fas fa-envelope"></i> tradejournal96@gmail.com
           </p>
-          <p>
-            <i className="fas fa-phone"></i> + 91 83789 79969
-          </p>
-          <p>
-            <i className="fas fa-print"></i> + 91 83789 79969
-          </p>
+       
         </div>
       </div>
       <div className="footer-text">
