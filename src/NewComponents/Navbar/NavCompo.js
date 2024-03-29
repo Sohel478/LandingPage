@@ -12,9 +12,7 @@ const NavCompo = () => {
     navi("/pricing");
   };
 
-  const handleHome=()=>{
-    navh("/NewHome/NewHome")
-  }
+
 
   return (
     <>
@@ -32,9 +30,9 @@ const NavCompo = () => {
       </div>
 
       <div className="nav-container">
-      <p className="footer-link" onClick={handleHome}>
+      <Nav.Link href="#" style={{ cursor: "pointer" }}>
           Home
-        </p>
+        </Nav.Link>
         <Nav.Link href="#contact" style={{ cursor: "pointer" }}>
           Contact
         </Nav.Link>
