@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { FaChartLine, FaShieldAlt, FaUsers } from 'react-icons/fa';
-import { BiDollarCircle } from 'react-icons/bi';
 import './Pricing.css';
 import Footer from '../Footer/Footer';
-import Navigation from '../Home/Naviagtion';
 import NavCompo from '../../NewComponents/Navbar/NavCompo';
 
 const GreenTickIcon = () => (

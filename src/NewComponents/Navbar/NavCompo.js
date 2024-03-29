@@ -6,15 +6,13 @@ import { Link, Navigator, useNavigate } from "react-router-dom";
 
 const NavCompo = () => {
   const navi = useNavigate();
-  const navh= useNavigate();
+  
 
   const handlePriceNav = () => {
     navi("/pricing");
   };
 
-  const handleHome=()=>{
-    navh("/NewHome/NewHome")
-  }
+
 
   return (
     <>
@@ -32,9 +30,7 @@ const NavCompo = () => {
       </div>
 
       <div className="nav-container">
-      <p className="footer-link" onClick={handleHome}>
-          Home
-        </p>
+        <Nav.Link to={"/NewHome.js"}>Home</Nav.Link>
         <Nav.Link href="#contact" style={{ cursor: "pointer" }}>
           Contact
         </Nav.Link>
