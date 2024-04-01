@@ -53,20 +53,19 @@ function Footer() {
           <h6 className="section-title">Useful links</h6>
           <hr className="section-divider" />
           <p>
-            <Link to={'./signin'}  className="footer-link">Open a Account</Link>
+            <Link to={'./signin'}  className="footer-link">Login</Link>
           </p>
-        
-          <p className="footer-link" onClick={handlePriceNav}>
-              About Us
+          <p>
+            <Link to={'./signup'}  className="footer-link">Signup</Link>
           </p>
           <p className="footer-link" onClick={handlePriceNav}>
-              Privacy Policy
+              Pricing
           </p>
           <p className="footer-link" onClick={handleTnC}>
               Terms & Conditions
           </p>
           <p className="footer-link" onClick={handleContactUs}>
-              Cancelletion/Refund Policies
+              Contact US
           </p>
               
         </div>
@@ -92,3 +91,4 @@ function Footer() {
 }
 
 export default Footer;
+
