@@ -19,6 +19,7 @@ function Footer() {
 
   const navi = useNavigate()
   const navterms = useNavigate()
+  const navContactUs = useNavigate()
 
   const handlePriceNav = ()=>{
     navi('/pricing')
@@ -28,6 +29,9 @@ function Footer() {
     navterms('/terms')
   }
   
+  const handleContactUs= ()=>{
+    navContactUs('/ContactUs')
+  }
   
 
 
@@ -38,7 +42,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h6 className="section-title">Company name</h6>
+          <h6 className="section-title">Company</h6>
           <hr className="section-divider" />
           <p>
           <b> Trading Analytics </b><br/>
@@ -59,6 +63,9 @@ function Footer() {
           </p>
           <p className="footer-link" onClick={handleTnC}>
               Terms & Conditions
+          </p>
+          <p className="footer-link" onClick={handleContactUs}>
+              Contact US
           </p>
               
         </div>

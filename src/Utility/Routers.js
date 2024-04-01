@@ -8,6 +8,7 @@ import ForgotPasswordForm from '../Components/Auth/ForgotPassword/ForgotPassword
 import ResetPassword from '../Components/Auth/ResetPassword/ResetPassword'
 import PricingPage from '../Components/Pricing/Pricing'
 import Terms from '../Components/Privacy Page/Terms'
+import ContactUs from '../Components/ContactUs/ContactUs'
 
 const Routers = () => {
   return (
@@ -21,6 +22,7 @@ const Routers = () => {
     <Route path='/reset-password' element={<ResetPassword/>}/>
     <Route path='/pricing' element={<PricingPage/>}/>
     <Route path='/terms' element={<Terms/>}/>
+    <Route path='/ContactUs' element={<ContactUs/>}/>
    
     </Routes>
    </BrowserRouter>
