@@ -8,7 +8,7 @@ import ForgotPasswordForm from '../Components/Auth/ForgotPassword/ForgotPassword
 import ResetPassword from '../Components/Auth/ResetPassword/ResetPassword'
 import PricingPage from '../Components/Pricing/Pricing'
 import Terms from '../Components/Privacy Page/Terms'
-import ContactUs from '../Components/ContactUs/ContactUs'
+import ContactUs from '../NewComponents/ContactUs/ContactUs'
 
 const Routers = () => {
   return (
