@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import './NewHomePart2.css'
-import profileCard from '../../Trade Photos/UI-Element.-04.png'
+// import profileCard from '../../Trade Photos/UI-Element.-04.png'
 import cards  from '../../Trade Photos/Cards.png'
 import easyMobile from '../../Trade Photos/Mobile-App01-760x1536.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,9 +32,9 @@ const NewHomePart2 = () => {
 
   return (
    <>
-  <div className='third-scroll-container'>
+  <div className='third-scroll-container w-75 m-auto'>
   <h1>We strive to offer an <br/> unparalled experience</h1>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
+    <div>"Empowering traders with cutting-edge technology for seamless and efficient trading experiences."</div>
 
 
     <div>
@@ -44,15 +44,15 @@ const NewHomePart2 = () => {
             <div style={{paddingTop:'10px'}}>Indice Training guide to help you better</div>
             <div style={{display:'flex'}}>
            
-            <div className='profile-card-container'>
+                    {/* <div className='profile-card-container'>
                 <img src={profileCard} alt='network-error'  className={`profile-card ${afterElementVisible ? 'fade-in-out' : ''}`}/>
-            </div>
+            </div> */}
 
             <div style={{display:'flex', justifyContent:'space-between' ,paddingTop:'50px', paddingLeft:'60px', width:'60vw'}}>   
                 <div>
                 <div style={{fontSize:'30px'}}>Accepting all masters <br/>card  and currency</div>
-                <div style={{width:'25vw', paddingTop:'10px'}}>Lorem ipsum dolor sit amet, <br/>consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et</div>   
-                <div style={{paddingTop:'10px', fontSize:'50px'}}> $ 199 M</div>
+                <div style={{width:'25vw', paddingTop:'10px'}}>"Accepting all major credit cards and currencies for hassle-free transactions on our platform."</div>   
+                <div style={{paddingTop:'10px', fontSize:'50px'}}>  Rs 4999 </div>
                 <div> Traded Volume</div>
                 </div>
                 <div >
@@ -71,7 +71,8 @@ const NewHomePart2 = () => {
 <div className='fourth-scroll-container'>
     <div>
         <h1 style={{textAlign:'center'}}>A clean and easy to use experience <br/>with trade Journal</h1>
-        <div style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
+        <div style={{textAlign:'center'}}>
+"Experience a clean and intuitive trading journey with our Trade Journal feature."</div>
     </div>
 
 <div style={{display:'grid', gridTemplateColumns:'auto auto auto auto auto' ,paddingTop:'100px'}}>
@@ -82,17 +83,18 @@ const NewHomePart2 = () => {
     </div>
 
     <div>
-        <div className='easy-heading ehbs'>See Analytics</div>
-        <div className='easy-heading-body ehbs'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        <div>
-            <div className='easy-heading ehbs'>Traded Statements</div>
-            <div className='easy-heading-body ehbs'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        </div>
-        <div>
-            <div className='easy-heading ehbs'>Secured with 2FA</div>
-            <div className='easy-heading-body ehbs'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        </div>
+    <div className='easy-heading ehbs'>See Analytics</div>
+    <div className='easy-heading-body ehbs'>Analyze market trends, performance metrics, and historical data to make informed trading decisions.</div>
+    <div>
+        <div className='easy-heading ehbs'>Traded Statements</div>
+        <div className='easy-heading-body ehbs'>Access comprehensive trade statements detailing your transaction history and portfolio performance.</div>
     </div>
+    <div>
+        <div className='easy-heading ehbs'>Secured with 2FA</div>
+        <div className='easy-heading-body ehbs'>Protect your account with an added layer of security through Two-Factor Authentication (2FA) for peace of mind while trading.</div>
+    </div>
+</div>
+
 
     <div>
         <img src={easyMobile} alt='network-error' className={`easy-mobile ${afterElementVisible ? 'fade-in-out1' : ''}`}/>
@@ -105,17 +107,18 @@ const NewHomePart2 = () => {
     </div>
 
     <div>
-        <div className='easy-heading'>Developer's API</div>
-        <div className='easy-heading-body'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        <div>
-            <div className='easy-heading'>Easily Managable account</div>
-            <div className='easy-heading-body'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        </div>
-        <div>
-            <div className='easy-heading'>Verify & Start Transaction</div>
-            <div className='easy-heading-body'>Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-        </div>
+    <div className='easy-heading'>Developer's API</div>
+    <div className='easy-heading-body'>Integrate our powerful Developer's API to build custom trading solutions and automate your trading strategies.</div>
+    <div>
+        <div className='easy-heading'>Easily Manageable Account</div>
+        <div className='easy-heading-body'>Effortlessly manage your trading account, monitor balances, and track transactions with our user-friendly interface.</div>
     </div>
+    <div>
+        <div className='easy-heading'>Verify & Start Transaction</div>
+        <div className='easy-heading-body'>Quickly verify your identity and initiate secure transactions with confidence using our streamlined verification process.</div>
+    </div>
+</div>
+
 </div>
 </div>
 
@@ -124,8 +127,9 @@ const NewHomePart2 = () => {
 
     <div style={{paddingLeft:'20px'}}>
         
-        <h1>A pricing offer for fast trading <br/>solution</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+    <h1>A pricing offer for fast trading <br/>solution</h1>
+<p>Unlock exclusive pricing plans designed to optimize your trading experience. Benefit from our fast and efficient trading solutions tailored to your needs.</p>
+
     </div>
 
 </div>

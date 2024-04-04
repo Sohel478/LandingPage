@@ -93,7 +93,7 @@ const NavCompo = () => {
             </Col>
         </Row>
     </Container></Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer className="bg-dark">
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>

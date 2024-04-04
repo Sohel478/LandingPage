@@ -48,7 +48,7 @@ const NewHome = () => {
 
       <div style={{overflowX:'hidden'}}>
       <div className={`elementor-widget-container ${topElementVisible ? 'slide-right' : ''}`}>
-     <div style={{display:'flex', justifyContent:'space-evenly'}}>
+     {/* <div style={{display:'flex', justifyContent:'space-evenly'}}>
      <div>
         <div>USD 955</div>
         <div>NextMove</div>
@@ -63,7 +63,7 @@ const NewHome = () => {
         <div>USD 59.80</div>
         <div>Sitemark</div>
         </div>
-     </div>
+     </div> */}
 
       {/* candle Stick */}
      
@@ -71,7 +71,7 @@ const NewHome = () => {
         <img src={candleStick} alt='network error' className='candle-stick'/>
           <div className='candle-stick-body'>
               <div>Advanced Technology</div>
-              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus</div>
+              <div>Join us on our the possibilities of advanced technology in trading.</div>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@ const NewHome = () => {
         </div>
 
         <div>
-        <div>$45Million</div>
+        <div>45Million</div>
         <div className='achivement-subtitle'>Traded Volumn</div>
         </div>
       </div>
@@ -124,7 +124,7 @@ const NewHome = () => {
         We do things differently at Reliable Technology Services
       </div>
       <div className={`intro-b-lorem ${afterElementVisible ? 'slide-right-lorem' : ''}`}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      Empower yourself with the tools and insights you need to succeed in today's dynamic financial markets.
       </div>
       </div>
     
@@ -147,10 +147,10 @@ const NewHome = () => {
       <img src={analyticsSymbol1} alt='network-error' className='analyticsSymbol1'/>
       <div>
       <div>Trade from Option Chain</div>
-      <div>Indice training guide.</div>
+      {/* <div>Indice training guide.</div> */}
       </div>
     </div>
-    <div style={{textAlign:'center', width:'25vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+    <div style={{textAlign:'center', width:'25vw'}}>Welcome to I Trade from Chain, where we provide cutting-edge solutions for trading on the blockchain. Our platform leverages the power of distributed ledger technology to offer secure, transparent, and efficient trading experiences. Join us as we explore the future of decentralized finance (DeFi) and digital asset trading.</div>
     </div>
 
 
@@ -164,10 +164,10 @@ const NewHome = () => {
         <img src={analyticsSymbol1} alt='network-error' className='analysisSymbol'/>
         <div>
         <div>Trade from Chain</div>
-        <div>Indice Training guide</div>
+        {/* <div>Indice Training guide</div> */}
         </div>
       </div>
-      <div style={{width:'25vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellu dineo dindsp od</div>
+      <div style={{width:'25vw'}}>Welcome to I Trade from Chain, where we provide cutting-edge solutions for trading on the blockchain. Our platform leverages the power of distributed ledger technology to offer secure, transparent, and efficient trading experiences.</div>
       <div className='analysis-line'></div>
     </div>
 
@@ -176,10 +176,10 @@ const NewHome = () => {
         <img src={analyticsSymbol1} alt='network-error' className='analysisSymbol'/>
         <div>
         <div>Iceberg Order</div>
-        <div>Indice Training guide</div>
+        {/* <div>Indice Training guide</div> */}
         </div>
       </div>
-      <div style={{width:'25vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellu dineo dindsp od</div>
+      <div style={{width:'25vw'}}>ceberg orders are a sophisticated trading strategy used by institutional investors to conceal the true size of their orders. By breaking large orders into smaller, undisclosed quantities, iceberg orders minimize market impact and reduce the risk of price manipulation. </div>
       <div className='analysis-line'></div>
     </div>
  </div>
@@ -193,10 +193,10 @@ const NewHome = () => {
         <img src={analyticsSymbol1} alt='network-error' className='analysisSymbol'/>
         <div>
         <div>Financial Analysis</div>
-        <div>Indice Training guide</div>
+      
         </div>
       </div>
-      <div style={{width:'25vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellu dineo dindsp od</div>
+      <div style={{width:'25vw'}}>Gain valuable insights into market trends, economic indicators, and investment opportunities with our comprehensive financial analysis tools. Whether you're a seasoned investor or a novice trader, our platform provides in-depth analysis.</div>
       <div className='analysis-line'></div>
     </div>
 
@@ -206,10 +206,10 @@ const NewHome = () => {
         <img src={analyticsSymbol1} alt='network-error' className='analysisSymbol'/>
         <div>
         <div>Pledging of shares</div>
-        <div>Indice Training guide</div>
+     
         </div>
       </div>
-      <div style={{width:'25vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellu dineo dindsp od</div>
+      <div style={{width:'25vw'}}>Pledging of shares is a common practice where shareholders use their shares as collateral to secure loans or credit facilities. By pledging shares, investors can access liquidity without selling their underlying assets. Explore the benefits and risks of share pledging.</div>
       <div className='analysis-line'></div>
     </div>
     </div>

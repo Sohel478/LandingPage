@@ -28,16 +28,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-section">
-          <h6 className="section-title">Company</h6>
-          <hr className="section-divider" />
-          <p>
-            <b> Trading Analytics </b>
-            <br />
-            "Empower your financial journey with our cutting-edge trading platform, providing seamless access to global markets and advanced tools for informed decision-making."
-          </p>
-        </div>
-        <div className="footer-section">
+            <div className="footer-section">
           <h6 className="section-title">Useful links</h6>
           <hr className="section-divider" />
           <p className="footer-link" onClick={() => handleNavigation('/aboutUs')}>
@@ -53,14 +44,14 @@ function Footer() {
             Terms & Conditions
           </p>
           
-      
-<Button variant="primary" onClick={handleShow}>
-      Contact Us
-      </Button>
+           <p className="footer-link" onClick={handleShow}>
+            Contact Us
+          </p>
+
 
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+         
         </Modal.Header>
         <Modal.Body>
         <Container id="contact">
@@ -103,7 +94,7 @@ function Footer() {
         </Row>
     </Container>
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer className="bg-dark">
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
@@ -121,7 +112,7 @@ function Footer() {
             <i className="fas fa-home"></i> 799, Sec -7C Faridabad, Haryana 121006
           </p>
           <p>
-            <i className="fas fa-envelope"></i> tradejournal96@gmail.com
+            <i className="fas fa-envelope"></i> Support@mytradejournal.in
           </p>
         </div>
       </div>
